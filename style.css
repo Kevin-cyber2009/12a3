@@ -213,3 +213,6 @@ body.bright-page{--paper:#f7f7f2;--forest:#123b50;--moss:#ee8758;--pale:#dff1ef;
 :root{--serif:'Noto Serif',Georgia,'Times New Roman',serif}
 .full-site .full-hero h1 em,.full-site .full-section-head h2 em,.full-site .contact-card h2 em{font-family:var(--display);font-style:normal;font-weight:600;letter-spacing:0}
 .full-site .full-number small{letter-spacing:.1em}
+.full-site .full-hero h1,.full-site .full-section-head h2,.full-site .contact-card h2{font-family:Arial,Helvetica,sans-serif!important;letter-spacing:normal!important;word-spacing:normal!important}
+.full-site .full-hero h1 em,.full-site .full-section-head h2 em,.full-site .contact-card h2 em{font-family:Arial,Helvetica,sans-serif!important;font-style:normal!important;font-weight:600!important;letter-spacing:normal!important;word-spacing:normal!important}
+.full-site .full-number small{font-family:Arial,Helvetica,sans-serif!important;letter-spacing:normal!important;word-spacing:normal!important}
