@@ -211,5 +211,5 @@ body.bright-page{--paper:#f7f7f2;--forest:#123b50;--moss:#ee8758;--pale:#dff1ef;
 @media(max-width:700px){.motion-ready .scroll-reveal{transform:translate3d(0,54px,0) scale(.96);transition-duration:.85s,.85s,.9s}}
 @media(prefers-reduced-motion:reduce){.motion-ready .scroll-reveal,.motion-ready .scroll-reveal.is-visible{opacity:1;filter:none;transform:none;transition:none;will-change:auto}}
 :root{--serif:'Noto Serif',Georgia,'Times New Roman',serif}
-.full-site .full-hero h1 em,.full-site .full-section-head h2 em,.full-site .contact-card h2 em{letter-spacing:0}
+.full-site .full-hero h1 em,.full-site .full-section-head h2 em,.full-site .contact-card h2 em{font-family:var(--display);font-style:normal;font-weight:600;letter-spacing:0}
 .full-site .full-number small{letter-spacing:.1em}
