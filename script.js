@@ -32,7 +32,7 @@ if(contribution){
   });
 }
 
-// Reveal chapter content as it enters the viewport while scrolling.
+// Reveal chapter content as it enters and leaves the viewport while scrolling.
 const revealTargets=document.querySelectorAll(
   '.full-section-head, .overview-layout, .topic-ribbon, .history-timeline article, .history-image, .history-callout, .destination-card, .eco-note, .culture-intro, .culture-tile, .culture-wide-image, .culture-outro, .food-feature, .food-menu-grid article, .food-note, .today-grid article, .today-wide-image, .future-box, .past-present, .story-cards a, .quiz-panel, .memory-strip figure, .contact-card'
 );
@@ -42,13 +42,14 @@ if(revealTargets.length && 'IntersectionObserver' in window && !window.matchMedi
     entries.forEach(entry=>{
       if(entry.isIntersecting){
         entry.target.classList.add('is-visible');
-        revealObserver.unobserve(entry.target);
+      }else{
+        entry.target.classList.remove('is-visible');
       }
     });
-  },{threshold:0.12,rootMargin:'0px 0px -6% 0px'});
+  },{threshold:0.08,rootMargin:'-4% 0px -10% 0px'});
   revealTargets.forEach((target,index)=>{
     target.classList.add('scroll-reveal');
-    target.style.setProperty('--reveal-delay',`${(index%4)*75}ms`);
+    target.style.setProperty('--reveal-delay',`${(index%3)*130}ms`);
     revealObserver.observe(target);
   });
 }
