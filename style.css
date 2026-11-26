@@ -216,3 +216,11 @@ body.bright-page{--paper:#f7f7f2;--forest:#123b50;--moss:#ee8758;--pale:#dff1ef;
 .full-site .full-hero h1,.full-site .full-section-head h2,.full-site .contact-card h2{font-family:Arial,Helvetica,sans-serif!important;letter-spacing:normal!important;word-spacing:normal!important}
 .full-site .full-hero h1 em,.full-site .full-section-head h2 em,.full-site .contact-card h2 em{font-family:Arial,Helvetica,sans-serif!important;font-style:normal!important;font-weight:600!important;letter-spacing:normal!important;word-spacing:normal!important}
 .full-site .full-number small{font-family:Arial,Helvetica,sans-serif!important;letter-spacing:normal!important;word-spacing:normal!important}
+.full-footer .footer-credit{border:1px solid #dce8dd;border-top:3px solid #e7b36d;border-radius:14px;background:#f5f7f1;padding:18px 20px;align-self:start}
+.credit-heading{margin-bottom:8px;color:#b57959;font-size:9px;font-weight:800;letter-spacing:.14em}
+.credit-person{display:grid;gap:4px;padding:10px 0;border-bottom:1px solid #e0e8df}
+.credit-person>span{font-size:9px;color:#71827a}
+.credit-person>strong{font-size:12px;line-height:1.4;color:#214f49}
+.full-footer .footer-credit>p{margin:13px 0;color:#7b8984;font-size:9px;line-height:1.65}
+.full-footer .footer-credit>a{display:inline-block;margin-top:5px}
+@media(max-width:700px){.full-footer .footer-credit{padding:17px 18px;border:1px solid #dce8dd;border-top:3px solid #e7b36d;border-radius:14px}}
