@@ -226,3 +226,4 @@ body.bright-page{--paper:#f7f7f2;--forest:#123b50;--moss:#ee8758;--pale:#dff1ef;
 .full-footer .footer-credit>p.credit-line{display:block;margin:8px 0;color:#355e55;font-size:11px;line-height:1.6;white-space:normal}
 .full-footer .footer-credit>p.credit-line strong{font-weight:700;color:#173c32}
 @media(max-width:700px){.full-footer .footer-credit{padding:17px 18px;border:1px solid #dce8dd;border-top:3px solid #e7b36d;border-radius:14px}}
+@media(max-width:700px){.full-site .explore-section .full-section-head h2{color:#153f50!important}.full-site .explore-section .full-section-head h2 em{color:#b95f3d!important}.full-site .explore-section .full-eyebrow{color:#526d68!important}}
